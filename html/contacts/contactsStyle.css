@@ -1,0 +1,313 @@
+.fsVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.contacts-box {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px 0;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.contacts-box .contacts-title-box {
+    min-width: 160px;
+    font-size: 25px;
+    font-weight: 700;
+    font-stretch: normal;
+    color: #d4d4d491;
+    text-transform: uppercase
+}
+
+.contacts-box .contacts-icon {
+    min-width: 75px;
+    height: 75px;
+    border-radius: 13px 0;
+    border: 1px solid #d4d4d438;
+    display: inline-block;
+    position: relative
+}
+
+.contacts-box .contacts-data-info:nth-child(odd) .contacts-title-wrap .contacts-information:nth-child(odd) .contacts-icon {
+    background-image: linear-gradient(to top, #1d1d1d, #3e3f40)
+}
+
+.contacts-box .contacts-data-info:nth-child(even) .contacts-information:nth-child(even) .contacts-icon {
+    background-image: linear-gradient(to top, #1d1d1d, #3e3f40)
+}
+
+.contacts-box .contacts-data-info:nth-child(even) {
+    margin-top: 0
+}
+
+.contacts-box .communication {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    margin-left: 15px;
+    margin-right: 5px;
+    width: 100%;
+    min-height: 100px;
+    color: #d4d4d491;
+}
+
+.contacts-box .communication a {
+    color: #d4d4d4ee;
+    font-size: 1rem;
+}
+
+.contacts-box .communication a:hover {
+    text-decoration: none;
+}
+
+.contacts-box .contacts-icon img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto
+}
+
+.contacts-box .contacts-data-info .contacts-title {
+    padding-left: 15px;
+    font-size: 36px
+}
+
+.contacts-box .contacts-title-wrap, .contacts-box .contacts-title-box-side {
+    display: flex;
+}
+
+.contacts-box .contacts-title-wrap {
+    flex-wrap: wrap
+}
+
+.contacts-box .contacts-title-wrap .contacts-information {
+    padding-right: 0
+}
+
+.contacts-box .contacts-title-box-side {
+    align-items: center;
+    position: relative;
+    top: -10px
+}
+
+.contacts-box .contacts-title-box-side:after {
+    content: '';
+    height: 2px;
+    width: calc(100% - 90px);
+    position: absolute;
+    left: auto;
+    right: 0;
+    bottom: 25px;
+    background-color: #d4d4d491
+}
+
+.contacts-box .contacts-number {
+    font-size: 72px;
+    font-weight: 700;
+    color: #d4d4d491;
+    position: absolute;
+    right: -16px;
+    z-index: -1
+}
+
+.contacts-box .contacts-icon {
+    min-width: 60px;
+    height: 60px
+}
+
+.contacts-box .contacts-title-box {
+    font-size: 26px
+}
+
+.contacts-box .contacts-data-info .contacts-title, .contacts-information {
+    padding-left: 0
+}
+
+.contacts-box .contacts-number {
+    font-size: 45px;
+    margin-right: 10px
+}
+
+.contacts-box .contacts-title-box-side:after {
+    content: '';
+    right: 21px;
+    bottom: 12px
+}
+
+.team-slider .team-title, .video-title, .souvenirs-title, .contacts-title {
+    color: #cacaca;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0
+}
+
+.wow {
+    visibility: hidden
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown
+}
+
+.animated.flip {
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    -webkit-animation-name: flip;
+    animation-name: flip
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+
+.animated.infinite {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.animated.delay-1s {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s
+}
+
+.animated.delay-2s {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s
+}
+
+.animated.delay-3s {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s
+}
+
+.animated.delay-4s {
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s
+}
+
+.animated.delay-5s {
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s
+}
+
+.animated.fast {
+    -webkit-animation-duration: .8s;
+    animation-duration: .8s
+}
+
+.animated.faster {
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s
+}
+
+.animated.slow {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s
+}
+
+.animated.slower {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s
+}
+
+.pulse {
+    -webkit-animation-name: pulse;
+    animation-name: pulse
+}
+
+.contacts-information {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+@-webkit-keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@-webkit-keyframes pulse {
+    from {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+    50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05)
+    }
+    to {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+}
+
+@keyframes pulse {
+    from {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+    50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05)
+    }
+    to {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+}
+
+@media (print), (prefers-reduced-motion:reduce) {
+    .animated {
+        -webkit-animation-duration: 1ms !important;
+        animation-duration: 1ms !important;
+        -webkit-transition-duration: 1ms !important;
+        transition-duration: 1ms !important;
+        -webkit-animation-iteration-count: 1 !important;
+        animation-iteration-count: 1 !important
+    }
+}
+
+@media (max-width:767px) {
+    .contacts-box .contacts-title-wrap .contacts-information:first-child, .contacts-box .contacts-title-wrap .contacts-information:last-child {
+        order: -1
+    }
+}

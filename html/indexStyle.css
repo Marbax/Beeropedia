@@ -1,0 +1,46 @@
+body {
+    background-color: #000000d2;
+    padding-bottom: 3rem;
+}
+  
+.navbar {
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.btn-info {
+    color: burlywood;
+    font-weight: 900;
+    border-color: burlywood;
+    background-color: transparent;
+}
+
+.btn-outline-success{
+    border-color: burlywood;
+    color: burlywood;
+}
+
+.btn-outline-success:hover , .btn-info:hover{
+    color: rgb(54, 24, 2);
+    background-image: url(img/wood-img/wood-light-sm.jpg);
+    border-color: burlywood;
+    transition: 0;
+    background-color: transparent;
+}
+
+::selection{
+    background-color: wheat;
+    color: rgb(54, 24, 2);
+}
+
+footer{
+    color:white;
+    margin: 2em 0 0 0 !important;
+}
+
+footer a{
+    color: burlywood;
+}
+
+footer a:hover{
+    color: rgb(165, 136, 99);
+}

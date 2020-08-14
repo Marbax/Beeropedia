@@ -1,0 +1,82 @@
+/* =============================================================================================================================================== */
+
+/* ===========================================================_Cards_============================================================================== */
+
+/* =============================================================================================================================================== */
+
+.rounded {
+    border-radius: 18px !important;
+    cursor: pointer;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+.card-wrapper .card-rotating {
+    height: auto;
+    border-width: 0;
+    border-style: none;
+}
+
+.face.back {
+    height: auto;
+}
+
+.face {
+    overflow: hidden;
+}
+
+.card-wrapper .view .carousel-item {
+    border-width: 0 0 0 0;
+    border-image-source: none;
+    border-style: none;
+}
+
+.card-wrapper .view .description {
+    bottom: 5%;
+}
+
+.card-wrapper .view .description>p:last-child {
+    display: none;
+}
+
+.card-wrapper .view:hover .description>p:first-child {
+    display: none;
+}
+
+.card-wrapper .view:hover .description>p:last-child {
+    display: block;
+}
+
+.card-wrapper .carousel {
+    margin: 0;
+    padding: 0;
+}
+
+.card-wrapper .view {
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.card-wrapper .mask{
+    top: -10%;
+}
+
+/* =============================================================================================================================================== */
+
+/* ==========================================================_Base_=============================================================================== */
+
+/* =============================================================================================================================================== */
+
+*{
+    font-family: 'Marmelad', sans-serif !important;
+}
+
+main {
+    margin-top: 4rem;
+}
+
+body {
+    overflow-x: hidden;
+  }
