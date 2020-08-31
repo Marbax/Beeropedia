@@ -1,4 +1,4 @@
-# WebExam
+# Beeropedia
  static site exam
 
 ## Статический сайт на тему "Пиво" с использованием бутстрапа
